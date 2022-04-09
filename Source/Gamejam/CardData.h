@@ -22,6 +22,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int nbRessource;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int nbJour;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float multiplicator;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<APawn*> participants;
