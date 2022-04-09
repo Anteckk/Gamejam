@@ -10,6 +10,6 @@
 AGamejamPlayerController::AGamejamPlayerController()
 {
 	bShowMouseCursor = true;
-	DefaultMouseCursor = EMouseCursor::Crosshairs;
+	// DefaultMouseCursor = EMouseCursor::Crosshairs;
 }
 
