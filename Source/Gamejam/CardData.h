@@ -5,6 +5,7 @@
 #include <string>
 
 #include "CoreMinimal.h"
+#include "GamejamCharacter.h"
 #include "Engine/DataAsset.h"
 #include "CardData.generated.h"
 
@@ -26,7 +27,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float multiplicator;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TArray<APawn*> participants;
+	TArray<ACharacter*> participants;
 	//TArray<bool> participants;
 		
 };
